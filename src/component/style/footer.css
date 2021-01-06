@@ -1,0 +1,243 @@
+.app-footer {
+    background-image: url("../img/background/bg-section.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 340px;
+    color: #fff;
+    text-align: center;
+    bottom: 0;
+
+}
+
+.contact-details {
+    width: 33%;
+    text-align: center;
+    margin: 0 auto;
+    float: left;
+}
+
+.address-detail {
+    padding: 50px 0 0 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.social-medsos-center {
+    text-align: center;
+    margin: 0 auto;
+    width: 14%;
+    float: left;
+    height: auto;
+}
+
+.social-medsos-right {
+    text-align: center;
+    margin: 0 auto;
+    width: 43%;
+    float: left;
+    height: auto;
+}
+
+.social-medsos-left {
+    text-align: center;
+    margin: 0 auto;
+    width: 43%;
+    float: left;
+    height: auto;
+}
+
+.contact-details p a {
+    font-size: 20px;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #fff;
+
+}
+
+.medsos {
+    font-size: 60px;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    padding: 30px;
+}
+
+.icon-medsos {
+    width: 30%;
+}
+
+.social {
+    width: 100%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title-contact h4 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title-contact {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    height: 70px;
+}
+
+.title-contact i {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.footer-text {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+}
+
+.col-copy {
+    width: 100%;
+    float: left;
+}
+
+.copyright {
+    font-size: 18px;
+    margin: 20px 0 10px;
+}
+
+
+@media(min-width:350px) and (max-width:1200px) {
+    .social-medsos-center {
+        text-align: center;
+        margin: 0 auto;
+        width: 20%;
+        float: left;
+        height: 80px;
+        background-color: yellow;
+    }
+
+    .social-medsos-right {
+        text-align: center;
+        margin: 0 auto;
+        width: 40%;
+        float: left;
+        height: auto;
+    }
+
+    .social-medsos-left {
+        text-align: center;
+        margin: 0 auto;
+        width: 40%;
+        float: left;
+        height: auto;
+    }
+
+    .medsos {
+        text-align: center;
+        margin: 0 auto;
+        padding: 5px;
+
+    }
+
+}
+
+@media (max-width:300px) {
+    .app-footer {
+        background-image: url("../img/background/bg-section.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 340px;
+        color: #fff;
+        text-align: center;
+        bottom: 0;
+
+    }
+
+    .social {
+        width: 100%;
+        height: 100px;
+        padding: 0 25px 0 25px;
+    }
+
+    .social-medsos-center {
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        float: left;
+        height: 80px;
+    }
+
+    .medsos {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        height: 50px;
+    }
+
+    .contact-details {
+        text-align: center;
+        width: 30%;
+        float: left;
+        margin: 5px;
+    }
+
+    .contact-details h4 {
+        font-size: 12px;
+        text-align: center;
+        margin: 0 auto;
+
+    }
+
+    .contact-details i {
+        margin: 0 5px 0 0;
+        padding: 0;
+
+    }
+
+
+    .title-contact h4 {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 15px;
+        margin: 10px 0 0 0;
+    }
+
+    .contact-details a {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 6px;
+    }
+
+    .contact-details p a {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .contact-details a i {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-text {
+        width: 100%;
+        float: left;
+        font-size: 20px;
+    }
+
+    .copyright {
+        font-size: 12px;
+        margin: 20px 0 10px;
+    }
+}
