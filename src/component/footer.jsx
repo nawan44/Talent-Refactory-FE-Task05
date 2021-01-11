@@ -44,11 +44,12 @@ class Footer extends React.Component {
                     </div>
                 </div>
                 <Row className="social">
-                    <div className="social-medsos-left" >
+                    {/* <div className="social-medsos-left" >
 
-                    </div>
+                    </div> */}
                     <div className="social-medsos-center" >
-                        <a href="https://facebook.com">
+                       <div className="container-medsos">
+                       <a href="https://facebook.com">
                             <i class='fab fa-facebook-square' style={medsos} ></i>
                         </a>
                         <a href="https://instagram.com">
@@ -60,11 +61,12 @@ class Footer extends React.Component {
                         <a href="https://linkedin.com">
                             <i class='fab fa-linkedin' style={medsos}></i>
                         </a>
+                       </div>
                     </div>
-
+{/* 
                     <div className="social-medsos-right">
 
-                    </div>
+                    </div> */}
                 </Row>
                 <div className="col-copy">
                     <p className="copyright">&copy; Rachwan all right reserved.</p>
