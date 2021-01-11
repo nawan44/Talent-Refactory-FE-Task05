@@ -20,7 +20,7 @@
 
 .address-detail {
     padding: 50px 0 0 0;
-    width: 100%;
+    width: 700px;
     height: auto;
     text-align: center;
     margin: 0 auto;
@@ -119,7 +119,7 @@
         width: 20%;
         float: left;
         height: 80px;
-        background-color: yellow;
+        /* background-color: yellow; */
     }
 
     .social-medsos-right {
@@ -156,7 +156,13 @@
         font-size: 16px;
         margin-top: 10px;
     }
-    
+    .address-detail {
+        padding: 50px 0 0 0;
+        width: 300px;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
     .title-contact {
         text-align: center;
         margin: 0 auto;
@@ -206,7 +212,13 @@
         font-size: 16px;
         margin-top: 10px;
     }
-    
+    .address-detail {
+        padding: 50px 0 0 0;
+        width: 700px;
+        height: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
     .title-contact {
         text-align: center;
         margin: 0 auto;
@@ -250,10 +262,7 @@
         
     }
 }
-@media only screen and (min-width: 992px) {
-}
-
-
-/* @media(min-width:350px) and (max-width:1200px) {
-   
+/* @media only screen and (min-width: 992px) {
 } */
+
+

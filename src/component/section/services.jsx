@@ -7,9 +7,7 @@ import services3 from '../img/services/3.png';
 
 
 
-const containerServices = {
-    width: '100%'
-}
+
 class Services extends React.Component {
     render() {
         return (
@@ -20,7 +18,7 @@ class Services extends React.Component {
 
                 <h5>Our Core in Integrated Marketing Services :</h5>
 
-                <div srtyle={containerServices}>
+                <div className="container-services">
                     <div className="services-left">
                         <img src={services1} className="icon-service" />
                     </div>

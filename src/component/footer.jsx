@@ -12,6 +12,7 @@ const medsos = {
     textAlign: 'center',
     margin: '0 auto'
 }
+
 class Footer extends React.Component {
     render() {
         return (

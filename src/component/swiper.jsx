@@ -23,7 +23,6 @@ const swip = {
 }
 
 
-
 const SwiperPorto = () => {
     return (
         <div className="swiper-porto">
